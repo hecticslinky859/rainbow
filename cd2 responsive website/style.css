@@ -1,0 +1,70 @@
+body {
+    background-color: white;
+    color: white;
+    margin: 0;
+    font-family: cursive;
+    font-size: 175%;
+}
+div.card{
+    background-color: white;
+    border: 5px dashed black
+        color:white
+}
+a{
+    
+}
+
+img.item{
+    width: 150px;
+}
+
+form input, label {
+    display: block;
+}
+
+form {
+    text-align: left;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+}
+
+nav, article {
+    padding: 15px;
+}
+
+header, footer {
+    background-color: black;
+    padding: 15px;
+}
+
+nav {
+    background-color: white;
+    color: black;
+    flex: 30%;
+}
+
+nav a {
+    display:block;
+    border: 1px solid black;
+    max-width: 200px;
+    text-align: center;
+    margin: 10px auto;
+}
+
+a:hover {
+    background-color: red;
+}
+
+article {
+    background-color: #125;
+    flex: 60%;
+}
+
+@media screen and (max-width:600px) {
+    section {
+        flex-direction: column;
+    }
+}
